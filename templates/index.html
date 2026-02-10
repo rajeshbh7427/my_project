@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emotion Aware Music</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h2>Emotion Aware Music Recommendation</h2>
+
+<label>Select Language:</label>
+<select id="language">
+    <option>English</option>
+    <option>Hindi</option>
+    <option>Telugu</option>
+    <option>Tamil</option>
+</select>
+
+<br><br>
+
+<button onclick="startWebcam()">🎥 Detect Emotion</button>
+
+<h3 id="emotion"></h3>
+<ul id="songs"></ul>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

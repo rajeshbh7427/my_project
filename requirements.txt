@@ -1,0 +1,7 @@
+flask
+deepface
+opencv-python
+numpy
+tensorflow
+tf-keras
+google-api-python-client
